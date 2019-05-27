@@ -6,5 +6,4 @@ before_install:
   - docker build -t dyanhogue/docker-react -f Dockerfile.dev .
   
 script:
-  - docker run dyanhogue/docker-react npm run test -- --coverage
-  
+  - docker run dyanhogue/docker-react npm run test 
